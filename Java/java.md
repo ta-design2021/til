@@ -22,7 +22,7 @@
 - Java Development Kit
 - 二つの機能
 - コンパイラー（javacコマンド）
-- Javaの実行環境（Java仮想マシン、JVM）
+- Javaの実行環境（Java仮想マシン、JVM:Java Virtual Machineの略。これをインストールすればOSに依存せずにどんな環境でもJavaのプログラムを動かすことができる）
 - 用途により数種類のパッケージがある。通常はJava SE（スタンダードエディション）
 
 
