@@ -39,7 +39,7 @@
 
 ### 基本的なコードの書き方
 - classの後のSampleはファイル名と同じにする
-- `public static void main(String[] args){}`これはお決まりのおまじないで{}の中に処理を書いていく
+- `public static void main(String[] args){}`これはお決まりのおまじないで{}のブロック中に処理を書いていく
 ~~~
 class Sample {
 
