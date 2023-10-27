@@ -25,6 +25,9 @@
 - Javaの実行環境（Java仮想マシン、JVM:Java Virtual Machineの略。これをインストールすればOSに依存せずにどんな環境でもJavaのプログラムを動かすことができる）
 - 用途により数種類のパッケージがある。通常はJava SE（スタンダードエディション）
 
+## eclipse(Pleiades All in One)
+- 統合開発環境
+
 
 ## コンソールに出力
 - System.out.println();
