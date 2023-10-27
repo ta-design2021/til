@@ -28,6 +28,11 @@
 ## eclipse(Pleiades All in One)
 - 統合開発環境
 
+## ソースコード実行の3ステップ
+1.カレントディレクトリの変更
+- ②コンパイル javac Sample.java でバイトコードファイルを生成（Sample.class）
+- ③実行　java Sample のみでOK（拡張子は不要）
+
 
 ## コンソールに出力
 - System.out.println();
