@@ -37,6 +37,20 @@
 ## コンソールに出力
 - `System.out.println();`
 
+### 基本的なコードの書き方
+- classの後のSample1_03_1はファイル名と同じにする
+- `public static void main(String[] args){}`これはお決まりのおまじないで{}の中に処理を書いていく
+~~~
+class Sample1_03_1 {
+
+	public static void main(String[] args) {
+		System.out.println("Hello World");
+
+	}
+
+}
+~~~
+
 ## 変数
 - intはデータ型で整数の意味
 ~~~
