@@ -38,10 +38,10 @@
 - `System.out.println();`
 
 ### 基本的なコードの書き方
-- classの後のSample1_03_1はファイル名と同じにする
+- classの後のSampleはファイル名と同じにする
 - `public static void main(String[] args){}`これはお決まりのおまじないで{}の中に処理を書いていく
 ~~~
-class Sample1_03_1 {
+class Sample {
 
 	public static void main(String[] args) {
 		System.out.println("Hello World");
