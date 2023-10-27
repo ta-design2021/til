@@ -45,5 +45,7 @@
 ~~~
 
 - Stringはデータ型で文字列の意味
-- String name;
-- name = "Yamada";
+~~~
+  String name;
+  name = "Yamada";
+~~~
