@@ -39,7 +39,7 @@
 
 ## 変数
 - intはデータ型で整数の意味
-#  
+#  int
   int number;
   number = 10;
 
