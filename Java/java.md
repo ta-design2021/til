@@ -68,3 +68,7 @@ class Sample {
   String name;
   name = "Yamada";
 ~~~
+
+## データ型の変換
+文字列→整数`Integer.parseInt(int型として扱いたい文字列)`
+整数　　　　→文字列`String.valueOf(String型として扱いたい整数)`
