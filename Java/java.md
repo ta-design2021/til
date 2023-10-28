@@ -71,7 +71,7 @@ class Sample {
 
 ## データ型の変換
 - 文字列→整数`Integer.parseInt(int型として扱いたい文字列)`
-- 整数　　　→文字列`String.valueOf(String型として扱いたい整数)`
+- 整数→文字列`String.valueOf(String型として扱いたい整数)`
 
 ## 配列
 - 型名[] 配列名 = new 型名[要素名];
