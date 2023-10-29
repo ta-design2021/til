@@ -110,4 +110,9 @@ System.out.println((double)number1 / number2);
 if (条件式)　{
    処理;
 }
+
+int x = 10;
+if (x == 10) {
+   System.out.println("xは10です");
+}
 ~~~
