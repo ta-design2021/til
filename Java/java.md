@@ -117,3 +117,18 @@ if (x == 10) {
    System.out.println("xは10です");
 }
 ~~~
+
+### switch文
+~~~
+swich (条件の値) {
+   case 値1:
+　　　　　　　　処理；
+　　　　　　　　break;
+   case 値2:
+　　　　　　　　処理；
+　　　　　　　　break;
+   case 値3:
+　　　　　　　　処理；
+　　　　　　　　break;
+}
+~~~
