@@ -132,3 +132,22 @@ swich (条件の値) {
 　　　　　　　　break;
 }
 ~~~
+### default
+- if文のelseみたいな役割を持つdefaultがある
+~~~
+int n = 0;
+swich (n) {
+   case 1:
+　　　　　　　　System.out.println("大吉");
+　　　　　　　　break;
+   case 2:
+　　　　　　　　System.out.println("吉");
+　　　　　　　　break;
+   case 3:
+　　　　　　　　System.out.println("小吉");
+　　　　　　　　break;
+　　　　　　default:
+    System.out.println("大凶");
+    break
+}
+~~~
