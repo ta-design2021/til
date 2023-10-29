@@ -103,3 +103,11 @@ System.out.println((double)number1 / number2);
 ## 真偽値
 - boolean型
 - true,false
+
+## 条件分岐
+### if文
+~~~
+if (条件式)　{
+   処理;
+}
+~~~
