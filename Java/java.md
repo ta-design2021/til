@@ -106,6 +106,7 @@ System.out.println((double)number1 / number2);
 
 ## 条件分岐
 ### if文
+- if文の{}に「;」はいらない。また{}内の処理のまとまりをブロックという
 ~~~
 if (条件式)　{
    処理;
