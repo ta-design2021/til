@@ -99,3 +99,7 @@ int number2 = 4;
 System.out.println((double)number1 / number2);
 ~~~
 - （double）の右横の変数が強制的にdouble型になることで、number2もそれに合わせてdouble型になり、出力結果が3ではなく3.25になる
+
+## 真偽値
+- boolean型
+- true,false
