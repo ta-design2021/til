@@ -87,3 +87,12 @@ x = x + 2;
 - `x = x + 10;` → `x += 10;`
 ### 値が1の時さらに省略可能
 - `x = x + 1;` → `x += 1;` → `x ++;`
+
+## 型変換
+### キャスト
+~~~
+int number1 = 13;
+int number2 = 4;
+System.out.println((double)number1 / number2);
+~~~
+- （double）の右横の変数が強制的にdouble型になることで、number2もそれに合わせてdouble型になり、出力結果が3ではなく3.25になる
