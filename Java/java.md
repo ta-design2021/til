@@ -221,7 +221,7 @@ for (int i = 0; i < 3; i++) {
 ~~~
 ### length
  - lengthを使うと要素を数えてくれるので、それを使い上記の`i < 3`と置き換えて使用できる
- - ~~~
+~~~
 String[] names = {"tanaka","yamada","suzuki"};
 for (int i = 0; i < names.lemgth; i++) {
     System.out.println("私の名前は" + names[i] + "です");
