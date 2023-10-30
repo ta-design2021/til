@@ -200,3 +200,8 @@ for (int i = 1; i <= 10; i++;) {
     System.out.println(i);
 }
 ~~~
+## 配列
+- `int[] numbers = {1,2,3};`
+- `String[] names = {tanaka,yamada,suzuki};`
+- 配列の要素は、前から順に「0,1,2,・・・」とインデックス番号が振られている
+- 配列の各要素は、配列名[インデックス番号]とすることで取得できる
