@@ -227,3 +227,15 @@ for (int i = 0; i < names.lemgth; i++) {
     System.out.println("私の名前は" + names[i] + "です");
 }
 ~~~
+### 拡張for文（配列用の特別なfor文）
+- 上記までのfor文よりも短縮して書ける
+~~~
+for (データ型　変数名：配列名) {
+    繰り返す処理;
+}
+
+String[] names = {"tanaka","yamada","suzuki"};
+for (string name:names) {
+    System.out.println("私の名前は" + name + "です");
+}
+~~~
