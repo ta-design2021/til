@@ -178,3 +178,14 @@ for (int i = 1; i <= 5; i++;) {
     System.out.println(i);
 }
 ~~~
+### break
+- 条件をfalseにする以外に、繰り返し処理を終了させる記述
+- 下記のようにif文などの条件分岐と組み合わせることで、任意の箇所で繰り返し処理を終了させる(変数iの値が6になった段階でfor分を終了)
+~~~
+for (int i = 1; i <= 10; i++;) {
+    if (i > 5) {
+      break;
+    }
+    System.out.println(i);
+}
+~~~
