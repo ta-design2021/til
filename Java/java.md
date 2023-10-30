@@ -211,3 +211,19 @@ System.out.println("私の名前は" + names[0] + "です");
 出力結果
 私の名前はtanakaです
 ~~~
+###　配列とfor文
+- 下記の例ではiが「0,1,2」の間繰り返し処理される
+~~~
+String[] names = {"tanaka","yamada","suzuki"};
+for (int i = 0; i < 3; i++) {
+    System.out.println("私の名前は" + names[i] + "です");
+}
+~~~
+### length
+ - lengthを使うと要素を数えてくれるので、それを使い上記の`i < 3`と置き換えて使用できる
+ - ~~~
+String[] names = {"tanaka","yamada","suzuki"};
+for (int i = 0; i < names.lemgth; i++) {
+    System.out.println("私の名前は" + names[i] + "です");
+}
+~~~
