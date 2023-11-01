@@ -275,3 +275,27 @@ public static void hello（String name） {
 }
 ~~~
 - 上記のメソッド名の後のかっこは仮引数
+
+~~~
+class Main {
+  public static void main(String[] args) {
+    // 引数に「Yamada Yarou」を渡してください
+    printData("Yamada Yarou");
+    
+    // 引数に「Tanaka Hanako」を渡してください
+    printData("Tanaka Hanako");
+    
+  }
+
+  // 引数を受け取るようにしてください
+  public static void printData(String name) {
+    // 「私の名前は◯◯です」と出力されるように書き換えてください
+    System.out.println("私の名前は" + name +"です");
+    
+  }
+}
+
+出力結果
+私の名前はYamada Tarouです
+私の名前はTanaka Hanakoです
+~~~
