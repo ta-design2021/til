@@ -243,3 +243,22 @@ for (string name:names) {
 ## メソッド
 - メソッドは何かしらの処理を割り当てた部品。処理ごとにメソッド切り分けるとわかりやすい。
 - メソッドは何度でも使い回すことができる
+
+~~~
+class Main {
+  public static void main(String[] args) {
+    // sampleメソッドを呼び出してください
+    sample();
+    
+  }
+  
+  // sampleaメソッドを定義してください
+  public static void sample() {
+  System.out.println("私の名前はTanaka Tarouです");
+  }
+  
+}
+
+出力結果
+私の名前はTanaka Tarouです
+~~~
