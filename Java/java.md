@@ -354,3 +354,28 @@ public static int add(int a, int b) {
 - `void`は戻り値がないという意味
 ### メソッドのオーバーロード
 - 同じメソッド名は使えないが、引数の方や個数が違う場合は同名のメソッドを定義できる。これをオーバーロードと言う。
+~~~
+class Main {
+  public static void main(String[] args) {
+    printData(fullName("Tanaka", "Tarou"), 27);
+    
+    // fullNameメソッドを用いて、printDataの引数を書き換えてください
+    printData(fullName("Ayajyou", "Porin", "Nakami"), 24);
+  }
+
+  public static void printData(String name, int age) {
+    System.out.println("私の名前は" + name + "です");
+    System.out.println("年齢は" + age + "歳です");
+  }
+
+  public static String fullName(String firstName, String lastName) {
+    return firstName + " " + lastName;
+  }
+  
+  // fullNameメソッドを定義してください
+  public static String fullName(String firstName, String middleName, String lastName) {
+    return firstName + " " + middleName + " " + lastName;
+  }
+  
+}
+~~~
