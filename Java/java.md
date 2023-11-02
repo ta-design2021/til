@@ -310,4 +310,18 @@ public static void メソッド名(データ型 変数名1,データ型 変数�
 public static void メソッド名(String item, int price) {
     System.out.println(item + "は" + price + "円です");
 }
+
+class main {
+    public sstatic void main(String[] args) {
+      printPrice("ハンバーガー",1200);
+      printPrice("コーラ",300);
+    }
+　　　　　　　　public static void printPrice(String item, int price) {
+      System.out.println(item + "は" + price + "円です");
+    }
+}
+
+出力結果
+ハンバーガーは1200円です
+コーラは300円です
 ~~~
