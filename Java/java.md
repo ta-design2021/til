@@ -325,3 +325,17 @@ class main {
 ハンバーガーは1200円です
 コーラは300円です
 ~~~
+## 戻り値のあるメソッド
+- メソッド内でreturnを使うと、returnの値をメソッドの呼び出し元に返すことができる
+- 戻り値のデータ型を指定
+- 定型だった`public static void`の`void`の部分に指定する
+~~~
+public static 戻り値のデータ型 メソッド名（引数） {
+    return 戻り値;
+}
+
+例
+public static int add（int a, int b） {
+    return a + b;
+}
+~~~
