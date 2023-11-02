@@ -350,3 +350,5 @@ public static int add(int a, int b) {
 出力結果
 12
 ~~~
+### void
+- `void`は戻り値がないという意味
