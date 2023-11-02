@@ -299,3 +299,15 @@ class Main {
 私の名前はYamada Tarouです
 私の名前はTanaka Hanakoです
 ~~~
+### 引数は複数持つことができる
+- 「,」カンマで区切る
+~~~
+public static void メソッド名(データ型 変数名1,データ型 変数名2) {
+    実行する処理;
+}
+
+例
+public static void メソッド名(String item, int price) {
+    System.out.println(item + "は" + price + "円です");
+}
+~~~
