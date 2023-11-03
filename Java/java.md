@@ -416,3 +416,19 @@ class Main {
  }
 }
 ~~~
+### Scanner
+- コンソールに入力した値を受け取るライブラリ
+- `import java.util.Scanner`と記述する
+~~~
+import java.util.Scanner;
+class Main {
+  public static void main(String[] args) {
+    Scanner scanner = new Scanner(System.in);
+
+    String name = scanner.next();
+  }
+}
+
+'new Scanner(System.in);'でScannerの初期化
+`scanner.next();`で文字列の入力を受け取る
+~~~
