@@ -379,3 +379,22 @@ class Main {
   
 }
 ~~~
+##　クラス
+- メソッドという小さな部品をまとめる、大きな部品のイメージ
+- 他のクラスのメソッドを利用することも可能
+~~~
+クラスの呼び出し例
+Main.java
+class Main {
+  public static void main(String[] args) {
+    Person.hello();
+ }
+}
+
+Person.java
+class Person {
+  public static void hello() {
+    System.out.println("Hello World");
+ }
+}
+~~~
