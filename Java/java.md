@@ -383,6 +383,7 @@ class Main {
 - メソッドという小さな部品をまとめる、大きな部品のイメージ
 - 他のクラスのメソッドを利用することも可能
 - クラス名とファイル名は同名かつ最初は大文字
+- 実行用のクラスとロジックをまとめるクラスで役割分担
 ~~~
 クラスの呼び出し例
 Main.java
@@ -396,6 +397,21 @@ Person.java
 class Person {
   public static void hello() {
     System.out.println("Hello World");
+ }
+}
+~~~
+### 外部ライブラリ
+- Javaでは他人が作ったクラスを利用することができ、これを外部ライブラリという
+- importを用いて使用することができる
+~~~
+例：Englishというクラス（ライブラリ）を読み込むには
+improt java.lang.English;
+
+class Main {
+  public static void main(String[] args) {
+  ・
+　　　　・
+　　　　・
  }
 }
 ~~~
