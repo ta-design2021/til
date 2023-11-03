@@ -403,9 +403,10 @@ class Person {
 ### 外部ライブラリ
 - Javaでは他人が作ったクラスを利用することができ、これを外部ライブラリという
 - importを用いて使用することができる
+- よく使われるライブラリはimportの記述を省ける（例えばMathクラス）
 ~~~
-例：Englishというクラス（ライブラリ）を読み込むには
-improt java.lang.English;
+例：Mathというクラス（ライブラリ）を読み込むには
+improt java.lang.Math;
 
 class Main {
   public static void main(String[] args) {
