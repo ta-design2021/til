@@ -431,4 +431,22 @@ class Main {
 
 'new Scanner(System.in);'でScannerの初期化
 `scanner.next();`で文字列の入力を受け取る
+
+例：
+// java.util.Scannerを読み込んでください
+import java.util.Scanner;
+
+class Main {
+  public static void main (String[] args) {
+    Scanner scanner = new Scanner(System.in);
+    
+    System.out.print("お名前： ");
+    
+    // 変数nameを定義し、コンソールから文字列を受け取って代入してください
+    String name = scanner.next();
+    
+    // 「こんにちは◯◯さん」と出力してください
+    System.out.println(name + "さんこんにちは");
+  }
+}
 ~~~
